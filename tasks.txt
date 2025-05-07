@@ -1,0 +1,67 @@
+npm create vite@latest project_fe(Project name)
+select react framework
+select javascript
+
+dir - list directories
+code .(it opens vs code from terminal)
+
+npm install (it goes through json file and install all dependencies)
+npm run dev ( we are running software in developer mode; if we dont use dev, it will run in production mode)
+
+src having all css, js files.
+in main.jsx (from here compiler know which thing need to show for user)
+test -- comment app part({/* <App /> */}) and add hello abraham!
+strict mode is there to protect your software
+
+install below
+npm i react-icons
+npm i react-router-dom
+npm i json-server
+npm i react-spinners(page loading)
+npm i react-toastify(used for alert user)
+
+in index.css remove and delete app.jsx
+
+type rafc in App.jsx
+
+fragments <> .... </> (used when we need to keep 2 or multiple div's)(we can bundle them as one)
+
+strict mode checks for any potential issues
+----
+
+
+{expression ? TrueValue: FalseValue}
+
+npm install tailwindcss @tailwindcss/vite (in terminal)
+
+use className instead of class
+
+---Apr 21---
+props
+
+done figma home page in app.jsx and created components
+
+----
+import React from "react";
+{/* title, subtitle are props */}
+function Hero(title = 'Become a Freelance Professional', subtitle='The best place to find Open Work positions') {
+  return (
+    <>
+      <section class="bg-indigo-700 py-20 mb-4">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center">
+          <div class="text-center">
+            <h1 class="text-4xl font-extrabold text-white sm:text-5xl md:text-6xl">
+              {title}
+            </h1>
+            <p class="my-4 text-xl text-white">
+              {subtitle}
+            </p>
+          </div>
+        </div>
+      </section>
+    </>
+  );
+}
+
+export default Hero;
+--

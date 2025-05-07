@@ -1,0 +1,82 @@
+// import React from 'react'
+
+// const name = "John";
+// let x = 5;
+// let y = 20;
+// let username = "Abraham"
+// // const App = () => {
+//   return (
+//     <>
+//     {/* {<div>Hello {name}</div> 
+//     <p> Text Content </p>
+//     <p>The value of {x} + {y} = {x + y} </p>
+//     <p>The username is {username} </p> */}
+//     </>
+//   )
+// }
+
+// export default App
+
+// import React from 'react';
+
+// const cars = ['BMW', 'Audi', 'Lexus', 'Mercedes'];
+
+// const App = () => {
+//   return (
+//     <>
+//     <h1 className='text-red-500'>List of cars</h1>
+//     <ul>
+//       {cars.map((car, index) => (
+//         <li key={index}>{car}</li>
+//       ))}
+//     </ul>
+//     </>
+//   );
+// };
+// export default App
+
+// import React from 'react';
+
+// const status = true;
+
+// const App = () => {
+//   return (
+//     <>
+//       {status ? <h2>Hello User</h2> : <h2>Please log in</h2>}
+//     </>
+//   );
+// };
+
+// export default App;
+
+
+// export default App;
+
+// import React from 'react';
+
+// const App = () => {
+//   return (
+//     <div style={{ color: 'red', fontSize: '32px' }}>
+//       Hello World
+//     </div>
+//   );
+// };
+
+// export default App;
+
+// import React from 'react';
+
+// const customLineStyle = {
+//   color: 'green',
+//   fontSize: '32px',
+// };
+
+// const App = () => {
+//   return (
+//     <div style={customLineStyle}>
+//       Hello World
+//     </div>
+//   );
+// };
+
+// export default App;
